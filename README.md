@@ -1,5 +1,9 @@
 # How to create my First Mobile App with Kotlin and Android Studio
 
+https://www.jetbrains.com/kotlin-multiplatform/
+
+https://www.youtube.com/watch?v=smAhUwEQ1d8&list=RDCMUCIjEgHA1vatSR2K4rfcdNRg&start_radio=1&rv=smAhUwEQ1d8&t=1448&t=0
+
 ## 1. Run Android Studio and press on New Project button
 
 We press on the **New Project** button
