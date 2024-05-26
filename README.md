@@ -68,9 +68,19 @@ Also we have to **extract the button name to resources**
 
 ![image](https://github.com/luiscoco/Android_Kotlin_lesson1_MyFirstApp/assets/32194879/77367ea4-b3f7-4915-a46c-fb4c4c37afa4)
 
-We create a string in resources with the button name
+We create a string in resources (**/res/values/strings.xml**) with the **button name**
 
-![image](https://github.com/luiscoco/Android_Kotlin_lesson1_MyFirstApp/assets/32194879/725d807b-04c5-4150-b966-922a88c26d03)
+We verify the new string in the resources
+
+**/res/values/strings.xml**
+
+```
+<resources>
+    <string name="app_name">MyFirstApplication</string>
+    <string name="button_first">Button</string>
+</resources>
+```
+
 
 
 ## 3. 
