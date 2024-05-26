@@ -28,9 +28,33 @@ This is the project folder and files structure
 
 We have to open the file **/res/layout/activity_main.xml**
 
-![image](https://github.com/luiscoco/Android_Kotlin_lesson1_MyFirstApp/assets/32194879/5bc543a7-81ce-492d-9423-2f275b72ecc2)
+![image](https://github.com/luiscoco/Android_Kotlin_lesson1_MyFirstApp/assets/32194879/75a2ed19-aab9-4687-9cdd-a550989abc92)
 
+This is the the UI code
 
+**activity_main.xml**
+
+```xml
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+```
 
 
 
