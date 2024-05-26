@@ -56,6 +56,10 @@ This is the the UI code
 </androidx.constraintlayout.widget.ConstraintLayout>
 ```
 
+We drag and drop a **button** into the **ConstraintLayout** with id **main**
+
+![image](https://github.com/luiscoco/Android_Kotlin_lesson1_MyFirstApp/assets/32194879/625071c0-937a-4500-bf52-b030241b76ed)
+
 
 
 ## 3. 
