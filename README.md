@@ -79,6 +79,10 @@ We create a string in resources (**/res/values/strings.xml**) with the **button 
 </resources>
 ```
 
+![image](https://github.com/luiscoco/Android_Kotlin_lesson1_MyFirstApp/assets/32194879/a33ddc0a-9c73-4241-a074-379d704153ce)
+
+We also have to set the **button constraints**
+
 
 
 ## 3. 
