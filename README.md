@@ -1,28 +1,35 @@
-# How to create my First Mobile App with Kotlin and Android Studio
+# My First Mobile Application with Android Studio and Kotlin
 
-**Kotlin multiplatform**
+## 1. How to create a New Project in Android Studio
 
-https://www.jetbrains.com/kotlin-multiplatform/
+Run Android Studio and press the **New Project** button 
 
-https://www.youtube.com/playlist?list=PLrn69hTK5FBxT4PTS9nOKFfpUc5DWp9Fp
+![image](https://github.com/luiscoco/Android_Kotlin_lesson1_MyFirstApp/assets/32194879/67949dce-16f6-488b-8529-14f93b85fd01)
 
-https://www.youtube.com/watch?v=smAhUwEQ1d8&list=RDCMUCIjEgHA1vatSR2K4rfcdNRg&start_radio=1&rv=smAhUwEQ1d8&t=1448&t=0
+We select the template option **Empty View Activity** and press the **Next** button
 
-## 1. Run Android Studio and press on New Project button
+![image](https://github.com/luiscoco/Android_Kotlin_lesson1_MyFirstApp/assets/32194879/43418c3e-6d87-439d-aeac-e6322cfd04c6)
 
-We press on the **New Project** button
+We input the new project data: activity name, package name, save location, language, minimum SDK and build configuration language
 
-![image](https://github.com/luiscoco/Android_Studio_Installation/assets/32194879/13a2b8f1-8eee-426c-a31c-30d95f9c833c)
+We press the **Finish** button
 
-We select a project template
+![image](https://github.com/luiscoco/Android_Kotlin_lesson1_MyFirstApp/assets/32194879/61b99a37-33d9-4617-aad0-9b28ac43f640)
 
-![image](https://github.com/luiscoco/Android_Studio_Installation/assets/32194879/b36dcfb9-69af-42d2-8f3d-32031e878653)
+Then **Gradle** will configure automatically the project 
 
-We also input the new project name, location and SDK version
+**Note**: Please accept to add the Project paths to Microsoft Defender
 
-![image](https://github.com/luiscoco/Android_Studio_Installation/assets/32194879/d03371ff-abe7-48e7-a0a9-af241bf60cbf)
+This is the project folder and files structure
 
-## 2. 
+![image](https://github.com/luiscoco/Android_Kotlin_lesson1_MyFirstApp/assets/32194879/6b148b4b-4c6d-4b22-b6e0-f88c3c289951)
+
+## 2.  
+
+
 
 
 ## 3. 
+
+
+
