@@ -87,7 +87,7 @@ We verify also the file **/res/layout/activity_main.xml**
 
 We also have to set the **button constraints**
 
-
+![image](https://github.com/luiscoco/Android_Kotlin_lesson1_MyFirstApp/assets/32194879/4d9ee698-b6fa-4574-a05f-881c2b369054)
 
 ## 3. 
 
