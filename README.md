@@ -216,4 +216,112 @@ Now we can press the **Running Devices** button and then the **Run 'app'**
 
 ![image](https://github.com/luiscoco/Android_Kotlin_lesson1_MyFirstApp/assets/32194879/c7cf349e-364a-47ea-9804-f623dfa2b84b)
 
+## 5. Code explained
 
+This code is an **Android application** written in **Kotlin**
+
+It defines the **MainActivity class**, which extends **AppCompatActivity** and represents the **main activity** of the application
+
+Here's a brief explanation of the key parts:
+
+**Package Declaration**:
+
+```kotlin
+package com.example.myfirstapplication
+```
+
+This specifies the **package name** for the class
+
+**Imports**:
+
+```kotlin
+import android.os.Bundle
+import android.widget.Button
+import androidx.activity.enableEdgeToEdge
+import androidx.appcompat.app.AlertDialog
+import androidx.appcompat.app.AppCompatActivity
+import androidx.core.view.ViewCompat
+import androidx.core.view.WindowInsetsCompat
+```
+
+These import necessary classes from the Android SDK and AndroidX libraries for the functionality used in the activity
+
+**MainActivity Class Declaration**:
+
+```kotlin
+class MainActivity : AppCompatActivity() {
+```
+
+This declares the **MainActivity** class, inheriting from **AppCompatActivity**
+
+**onCreate Method**:
+
+```kotlin
+override fun onCreate(savedInstanceState: Bundle?) {
+    super.onCreate(savedInstanceState)
+    enableEdgeToEdge()
+    setContentView(R.layout.activity_main)
+```
+
+The onCreate method is the entry point for the activity
+
+It is called when the activity is first created
+
+It performs the following actions:
+
+Calls the super.onCreate method to ensure proper initialization
+
+Enables edge-to-edge display using enableEdgeToEdge()
+
+Sets the content view to activity_main.xml using setContentView
+
+**Setting Window Insets**:
+
+```kotlin
+ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
+    val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
+    v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
+    insets
+}
+```
+
+This block sets a listener to apply window insets to the main view (with ID main)
+
+It adjusts the padding of the view to accommodate system bars (like status and navigation bars)
+
+**Button Setup**:
+
+```kotlin
+val button = findViewById<Button>(R.id.button_first)
+```
+
+This line finds a button in the layout with the ID button_first
+
+**Button OnClickListener**:
+
+```kotlin
+button.setOnClickListener {
+    val dialog = AlertDialog.Builder(this)
+        .setTitle("Dialog Title")
+        .setMessage("This is a simple dialog message.")
+        .setPositiveButton("OK") { dialog, _ ->
+            dialog.dismiss()
+        }
+        .create()
+    dialog.show()
+}
+```
+
+This block sets an OnClickListener on the button
+
+**When the button is clicked**:
+
+It creates an AlertDialog with a title, message, and an "OK" button
+
+The "OK" button dismisses the dialog when clicked
+
+The dialog is then shown on the screen
+
+In summary, this code sets up an Android activity with a button that, when clicked, displays a dialog with a message
+
+The activity also handles window insets to ensure proper layout adjustments for system bars
