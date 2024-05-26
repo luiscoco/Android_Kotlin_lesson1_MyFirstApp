@@ -70,8 +70,6 @@ Also we have to **extract the button name to resources**
 
 We create a string in resources (**/res/values/strings.xml**) with the **button name**
 
-We verify the new string in the resources
-
 **/res/values/strings.xml**
 
 ```
