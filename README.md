@@ -81,6 +81,10 @@ We create a string in resources (**/res/values/strings.xml**) with the **button 
 
 ![image](https://github.com/luiscoco/Android_Kotlin_lesson1_MyFirstApp/assets/32194879/a33ddc0a-9c73-4241-a074-379d704153ce)
 
+We verify also the file **/res/layout/activity_main.xml**
+
+![image](https://github.com/luiscoco/Android_Kotlin_lesson1_MyFirstApp/assets/32194879/41585b08-816e-4787-8101-c29fd871ee36)
+
 We also have to set the **button constraints**
 
 
