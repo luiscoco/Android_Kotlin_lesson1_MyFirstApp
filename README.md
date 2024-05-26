@@ -24,7 +24,12 @@ This is the project folder and files structure
 
 ![image](https://github.com/luiscoco/Android_Kotlin_lesson1_MyFirstApp/assets/32194879/6b148b4b-4c6d-4b22-b6e0-f88c3c289951)
 
-## 2.  
+## 2.  Design the application User Interface UI
+
+We have to open the file **/res/layout/activity_main.xml**
+
+![image](https://github.com/luiscoco/Android_Kotlin_lesson1_MyFirstApp/assets/32194879/5bc543a7-81ce-492d-9423-2f275b72ecc2)
+
 
 
 
