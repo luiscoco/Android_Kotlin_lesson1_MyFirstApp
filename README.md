@@ -89,7 +89,42 @@ We also have to set the **button constraints**
 
 ![image](https://github.com/luiscoco/Android_Kotlin_lesson1_MyFirstApp/assets/32194879/4d9ee698-b6fa-4574-a05f-881c2b369054)
 
-## 3. 
+## 3. Define the button OnClickListener 
+
+This is the original code
+
+**MainActivity.kt**
+
+```
+package com.example.myfirstapplication
+
+import android.os.Bundle
+import androidx.activity.enableEdgeToEdge
+import androidx.appcompat.app.AppCompatActivity
+import androidx.core.view.ViewCompat
+import androidx.core.view.WindowInsetsCompat
+
+class MainActivity : AppCompatActivity() {
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        enableEdgeToEdge()
+        setContentView(R.layout.activity_main)
+        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
+            val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
+            v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
+            insets
+        }
+    }
+}
+```
+
+This is the modified code
+
+**MainActivity.kt**
+
+```
+
+```
 
 
 
