@@ -95,7 +95,7 @@ This is the original code
 
 **MainActivity.kt**
 
-```
+```kotlin
 package com.example.myfirstapplication
 
 import android.os.Bundle
@@ -122,7 +122,7 @@ This is the modified code
 
 **MainActivity.kt**
 
-```
+```kotlin
 
 ```
 
