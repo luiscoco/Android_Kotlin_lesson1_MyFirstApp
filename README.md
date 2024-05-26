@@ -1,6 +1,10 @@
 # My First Mobile Application with Android Studio and Kotlin
 
-For further information see this youtube video: https://www.youtube.com/watch?v=F3fWtxanBLg
+For further information see this youtube video: 
+
+https://www.youtube.com/watch?v=F3fWtxanBLg
+
+https://www.youtube.com/watch?v=vFNpJldBP6A
 
 ## 1. How to create a New Project in Android Studio
 
